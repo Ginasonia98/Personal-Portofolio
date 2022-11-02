@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+  /* font-family: Quicksand; */
+}
+body {
+  font-family: Quicksand;
+  background-image: url("https://ae01.alicdn.com/kf/HTB1uPy5bffsK1RjSszgq6yXzpXar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+}
+p {
+  font-size: 12px;
+}
+.josefinFont {
+  font-family: Josefin Sans;
+}
+.alanquinFont {
+  font-family: Palanquin Dark;
+}
+.contentWrapper {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+.headerWrapper {
+  width: 60%;
+  height: 25px;
+  margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.contentNav {
+  width: 200px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.hoverUnderline:hover {
+  border-bottom: 1.5px solid black;
+}
+.projectDropdownContent {
+  margin: 40px 0 0 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;    
+  background: #eaeaea;
+  transition: all .2s ease-in-out;
+}
+.projectDropdown:hover .projectDropdownContent {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 2px;
+}
+.projectDropdownContent span {
+  width: 180px;
+  padding: 14px 10px;
+  display: block;
+  font-size: 14px;
+ }
+.projectDropdownContent span:hover {
+  background: #696969;
+  color: #ffffff;
+}
+
+.subDropContent {
+  margin:-46px 0 0 240px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;    
+  background: #eaeaea;
+  transition: all .2s ease-in-out;
+}
+.projectDropdownContent li:hover .subDropContent {
+  opacity: 1;
+  visibility: visible;
+  margin-left: 200px;
+}
+.subDropContent li {
+  width: 180px;
+  padding: 14px 10px;
+  display: block;
+  font-size: 14px;
+ }
+.subDropContent li:hover {
+  background: #696969;
+}
+.subDropContent li:hover a {
+  background: #696969;
+  color: #ffffff;
+}
+.contactWrapper span {
+  margin: 0 25px;
+}
+#linkendLogo {
+  height: 18px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.longLine {
+  margin: 10px auto 40px auto;
+}
+.shortLine {
+  width: 60%;
+  margin: auto;
+}
+.pageTitle, .contentTitle {
+  text-align: center;
+}
+.pageTitle {
+  font-family: Josefin Sans;
+}
+.contentTitle {
+  font-weight: bold;
+}
+
+/* banner */
+.bannerWrapper {
+  width: 100%;
+  height: 800px;
+  margin-top: 25px;
+  background-image: url("https://www.bootstrapbayblog.com/wp-content/uploads/2021/03/front-end-developer-1.jpg");
+  background-size: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.selfIntroWrapper {
+  width: 400px;
+  margin: auto;
+  color: #ffffff;
+  font-size: medium;
+}
+.selfIntroWrapper p, h1 {
+  color: #ffffff;
+}
+.selfIntroWrapper h1 {
+  font-size: 400%;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+}
+.selfIntroWrapper p {
+  font-size: 12px;
+}
+
+/* project */
+.projectContainer {
+  width: 100%;
+  padding: 25px 0;
+  background: #eaeaea;
+}
+.projectWrapper {
+  width: 60%;
+  margin: 40px auto;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.projectTitle {
+  margin: 50px 0 10px 0;
+}
+.projectDescriptionWrapper, .projectSnapshot {
+  width: 40%;
+}
+.projectSnapshot {
+  height: 300px;
+}
+.btn {
+  margin-top: 50px;
+  background: none;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  /* background: #eaeaea; */
+  padding-bottom: 80px;
+}
+.footerLine {
+  margin-bottom: 25px;
+}
+.footerContentWrapper {
+  width: 60%;
+  margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.footerContentWrapper > div {
+  margin: 0 100px;
+}
+.footerContentWrapper h5 {
+  margin-bottom: 10px;
+}
+
+.progress{
+  margin-top: 15px;
+}
+
