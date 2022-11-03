@@ -42,7 +42,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.hoverUnderline:hover {
+.nohoverUnderline:hover {
   border-bottom: 1.5px solid black;
 }
 .projectDropdownContent {
@@ -215,4 +215,5 @@ footer {
 .progress{
   margin-top: 15px;
 }
+
 
