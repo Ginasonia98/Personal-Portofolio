@@ -216,4 +216,7 @@ footer {
   margin-top: 15px;
 }
 
-
+.projectSnapshot{
+  object-fit: contain;
+  height: 400px;
+}
