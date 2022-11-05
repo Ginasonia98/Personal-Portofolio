@@ -125,6 +125,7 @@ hr {
 }
 .pageTitle {
   font-family: Josefin Sans;
+  color: #000;
 }
 .contentTitle {
   font-weight: bold;
@@ -144,11 +145,11 @@ hr {
 .selfIntroWrapper {
   width: 400px;
   margin: auto;
-  color: #ffffff;
+  color: #000;
   font-size: medium;
 }
 .selfIntroWrapper p, h1 {
-  color: #ffffff;
+  color: #000;
 }
 .selfIntroWrapper h1 {
   font-size: 400%;
