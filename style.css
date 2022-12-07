@@ -5,29 +5,36 @@
   color: #000;
   /* font-family: Quicksand; */
 }
+
 body {
   font-family: Quicksand;
   background-image: url("https://ae01.alicdn.com/kf/HTB1uPy5bffsK1RjSszgq6yXzpXar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 ul {
   list-style-type: none;
 }
+
 p {
   font-size: 12px;
 }
+
 .josefinFont {
   font-family: Josefin Sans;
 }
+
 .alanquinFont {
   font-family: Palanquin Dark;
 }
+
 .contentWrapper {
   width: 100%;
   margin: auto;
   margin-top: 30px;
 }
+
 .headerWrapper {
   width: 60%;
   height: 25px;
@@ -36,97 +43,113 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
 .contentNav {
   width: 200px;
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
 }
+
 .nohoverUnderline:hover {
   border-bottom: 1.5px solid black;
 }
+
 .projectDropdownContent {
   margin: 40px 0 0 0;
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  z-index: 1;    
+  z-index: 1;
   background: #eaeaea;
   transition: all .2s ease-in-out;
 }
+
 .projectDropdown:hover .projectDropdownContent {
   opacity: 1;
   visibility: visible;
   margin-top: 2px;
 }
+
 .projectDropdownContent span {
   width: 180px;
   padding: 14px 10px;
   display: block;
   font-size: 14px;
- }
+}
+
 .projectDropdownContent span:hover {
   background: #696969;
   color: #ffffff;
 }
 
 .subDropContent {
-  margin:-46px 0 0 240px;
+  margin: -46px 0 0 240px;
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  z-index: 2;    
+  z-index: 2;
   background: #eaeaea;
   transition: all .2s ease-in-out;
 }
+
 .projectDropdownContent li:hover .subDropContent {
   opacity: 1;
   visibility: visible;
   margin-left: 200px;
 }
+
 .subDropContent li {
   width: 180px;
   padding: 14px 10px;
   display: block;
   font-size: 14px;
- }
+}
+
 .subDropContent li:hover {
   background: #696969;
 }
+
 .subDropContent li:hover a {
   background: #696969;
   color: #ffffff;
 }
+
 .contactWrapper span {
   margin: 0 25px;
 }
+
 #linkendLogo {
   height: 18px;
 }
+
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
+  background-image: linear-gradient(to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0));
 }
+
 .longLine {
   margin: 10px auto 40px auto;
 }
+
 .shortLine {
   width: 60%;
   margin: auto;
 }
+
 .pageTitle, .contentTitle {
   text-align: center;
 }
+
 .pageTitle {
   font-family: Josefin Sans;
-  color: #000;
+  color: #fff;
 }
+
 .contentTitle {
   font-weight: bold;
 }
@@ -136,26 +159,30 @@ hr {
   width: 100%;
   height: 800px;
   margin-top: 25px;
-  background-image: url("https://www.bootstrapbayblog.com/wp-content/uploads/2021/03/front-end-developer-1.jpg");
+  background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&w=1000&q=80");
   background-size: 100%;
   display: -webkit-flex;
   display: flex;
   justify-content: center;
 }
+
 .selfIntroWrapper {
   width: 400px;
   margin: auto;
-  color: #000;
+  color: #fff;
   font-size: medium;
 }
+
 .selfIntroWrapper p, h1 {
-  color: #000;
+  color: #fff;
 }
+
 .selfIntroWrapper h1 {
   font-size: 400%;
   font-family: Josefin Sans;
   text-transform: uppercase;
 }
+
 .selfIntroWrapper p {
   font-size: 12px;
 }
@@ -166,6 +193,7 @@ hr {
   padding: 25px 0;
   background: #eaeaea;
 }
+
 .projectWrapper {
   width: 60%;
   margin: 40px auto;
@@ -173,15 +201,19 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+
 .projectTitle {
   margin: 50px 0 10px 0;
 }
+
 .projectDescriptionWrapper, .projectSnapshot {
   width: 40%;
 }
+
 .projectSnapshot {
   height: 300px;
 }
+
 .btn {
   margin-top: 50px;
   background: none;
@@ -196,9 +228,11 @@ footer {
   /* background: #eaeaea; */
   padding-bottom: 80px;
 }
+
 .footerLine {
   margin-bottom: 25px;
 }
+
 .footerContentWrapper {
   width: 60%;
   margin: auto;
@@ -206,19 +240,22 @@ footer {
   display: flex;
   justify-content: center;
 }
-.footerContentWrapper > div {
+
+.footerContentWrapper>div {
   margin: 0 100px;
 }
+
 .footerContentWrapper h5 {
   margin-bottom: 10px;
 }
 
-.progress{
+.progress {
   margin-top: 15px;
 }
 
-.projectSnapshot{
+.projectSnapshot {
   object-fit: contain;
   height: 20%;
   width: 20%;
 }
+
