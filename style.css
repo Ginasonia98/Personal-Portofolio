@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  color: #000;
-  /* font-family: Quicksand; */
+  color: black;
 }
+
 
 body {
   font-family: Quicksand;
@@ -51,12 +51,19 @@ p {
   justify-content: space-between;
 }
 
-.nohoverUnderline:hover {
-  border-bottom: 1.5px solid black;
+.Underline {
+  text-decoration: none;
+  color: black;
+}
+
+.Underline:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .projectDropdownContent {
-  margin: 40px 0 0 0;
+  margin: 0 0 0 0;
+  padding-left: 0 !important;
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -91,6 +98,7 @@ p {
   z-index: 2;
   background: #eaeaea;
   transition: all .2s ease-in-out;
+  padding-left: 0 !important;
 }
 
 .projectDropdownContent li:hover .subDropContent {
@@ -147,7 +155,8 @@ hr {
 
 .pageTitle {
   font-family: Josefin Sans;
-  color: #fff;
+  color: #000;
+  font-weight: 500;
 }
 
 .contentTitle {
@@ -225,13 +234,10 @@ hr {
 /* footer */
 footer {
   width: 100%;
-  /* background: #eaeaea; */
+  background-image: url("https://ae01.alicdn.com/kf/HTB1uPy5bffsK1RjSszgq6yXzpXar.jpg");
   padding-bottom: 80px;
 }
 
-.footerLine {
-  margin-bottom: 25px;
-}
 
 .footerContentWrapper {
   width: 60%;
@@ -239,6 +245,7 @@ footer {
   display: -webkit-flex;
   display: flex;
   justify-content: center;
+  padding-top: 24px;
 }
 
 .footerContentWrapper>div {
@@ -258,4 +265,3 @@ footer {
   height: 20%;
   width: 20%;
 }
-
