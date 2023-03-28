@@ -179,6 +179,10 @@ hr {
   margin: auto;
   color: #fff;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .selfIntroWrapper p {
@@ -259,24 +263,22 @@ footer {
   width: 20%;
 }
 
+/* ukuran gambar */
+.myPhoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
 /* mengatur tata letak */
 .introContent {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  text-align: center;
 }
 
 .introTitle {
   flex-basis: 100%;
-}
-
-.myPhoto {
-  display: block;
-  margin: 15 auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
 }
 
 @media only screen and (min-width: 768px) {
