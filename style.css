@@ -270,7 +270,17 @@ footer {
   flex-basis: 100%;
 }
 
+.myPhoto {
+  display: block;
+  margin: 15 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 @media only screen and (min-width: 768px) {
+
   /* tampilan pada layar yang lebih besar */
   .introTitle {
     flex-basis: calc(100% - 220px);
