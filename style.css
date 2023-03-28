@@ -12,6 +12,7 @@ body {
   background-size: cover;
 }
 
+
 ul {
   list-style-type: none;
 }
@@ -164,36 +165,30 @@ hr {
 
 /* banner */
 .bannerWrapper {
-  width: 100%;
-  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 25px;
   background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8&w=1000&q=80");
   background-size: 100%;
   display: -webkit-flex;
-  display: flex;
-  justify-content: center;
 }
 
+/* CSS untuk membuat h1 dan p berada di tengah */
 .selfIntroWrapper {
   width: 400px;
   margin: auto;
   color: #fff;
-  font-size: medium;
-}
-
-.selfIntroWrapper p, h1 {
-  color: #fff;
-}
-
-.selfIntroWrapper h1 {
-  font-size: 400%;
-  font-family: Josefin Sans;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 .selfIntroWrapper p {
-  font-size: 12px;
+  color: #fff;
 }
+
+.selfIntroWrapper p {
+  font-size: 16px;
+}
+
 
 /* project */
 .projectContainer {
@@ -262,4 +257,33 @@ footer {
   object-fit: contain;
   height: 20%;
   width: 20%;
+}
+
+/* ukuran gambar */
+.myPhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+/* mengatur tata letak */
+.introContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.introTitle {
+  flex-basis: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tampilan pada layar yang lebih besar */
+  .introTitle {
+    flex-basis: calc(100% - 220px);
+  }
 }
